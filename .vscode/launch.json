@@ -32,7 +32,7 @@
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "external",
-            "gdbTarget": "192.168.1.76:3333",
+            "gdbTarget": "<YourDebugHostIP>:3333",
             "gdbPath": "gdb-multiarch",
             "device": "RP2040",
             "svdFile": "${workspaceFolder}/external/pico-sdk/src/rp2040/hardware_regs/rp2040.svd",

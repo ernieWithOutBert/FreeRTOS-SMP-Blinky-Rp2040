@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Pico",
+        "compilers": {
+            "C": "${workspaceFolder}/external/pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc",
+            "CXX": "${workspaceFolder}/externalpico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-gcc"
+        },
+        "environmentVariables": {
+            "PATH": "${command:raspberry-pi-pico.getEnvPath};${env:PATH}"
+        },
+        "cmakeSettings": {
+            "Python3_EXECUTABLE": "${command:raspberry-pi-pico.getPythonPath}"
+        }
+    }
+]

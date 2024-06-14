@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "multicore.h": "c",
+        "cstdint": "cpp",
+        "stdio.h": "c",
+        "stack_macros.h": "c",
+        "timers.h": "c",
+        "task.h": "c",
+        "string": "c",
+        "cassert": "c",
+        "stdlib.h": "c"
+    },
+    "mcu-debug.rtos-views.showRTOS": true,
+    "editor.formatOnSave": true,
+    "search.useIgnoreFiles": false,
+    "search.useParentIgnoreFiles": false,
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "mcu-debug.debug-tracker-vscode.debugLevel": 2,
+    "cortex-debug.variableUseNaturalFormat": false,
+}

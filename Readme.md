@@ -8,9 +8,7 @@ Do not initialize your SDK path the build script will fetch the sdk and the Free
 
 ## Preconditions:
 
-cmake, build-essential
 
-sudo apt install cmake build-essential cmake
 
 ```shell
 usr@Host~/BlinkySMP$ mkdir build

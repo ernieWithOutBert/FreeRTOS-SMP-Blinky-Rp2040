@@ -28,3 +28,5 @@ usr@Host~/BlinkySMP$ cmake cmake -DCMAKE_BUILD_TYPE=Debug ..
 ```
 
 **_NOTE:_**  If you are using VS Code you can create the folder and use the Runners from the tasks.json file.
+
+You will find your binary files under build/src/App.*
